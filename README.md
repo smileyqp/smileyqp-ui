@@ -7,7 +7,7 @@
 
 
 
-#### 什么smileyqp-ui使用方法
+#### smileyqp-ui使用方法
 
 ```shell
 //推荐使用cnpm;npm和yarn也可以
