@@ -26,3 +26,26 @@ function App() {
 export default App;
 ```
 
+
+
+项目目录结构
+
+```js
+|-smileyqp-ui
+|  |-public
+|  |-src
+|     |-components	//组件
+|     	|-style
+|       	|-default.less  
+|     	|-button
+|       	|-index.js  
+|       	|-idnex.less  
+|     	|-index.js
+|  	  |-App.js	//演示
+|  	  |-App.less
+|     |-index.js
+|  |-pakage.json
+|  |-theme.json
+...（其他）
+
+```
