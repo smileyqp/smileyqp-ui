@@ -1,6 +1,6 @@
 {
   "name": "smileyqp-ui",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": false,
   "description": "A UI library for React by smileyqp",
   "main": "lib/index.js",
@@ -41,6 +41,7 @@
     "react-app-rewired": "^2.1.8",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "smileyqp-ui": "^0.0.7",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -50,8 +51,8 @@
     "eject": "react-scripts eject",
     "build:commonjs": "cross-env BABEL_OUTPUT=commonjs babel src/components --out-dir lib/ --ignore **/__tests__,**/__mocks__",
     "build:esm": "babel src/components --out-dir esm/ --ignore **/__tests__,**/__mocks__",
-    "copy-css:esm": "cpx \"src/components/**/*.css\" esm",
-    "copy-css:lib": "cpx \"src/components/**/*.css\" lib"
+    "copy-css:esm": "cpx \"src/components/**/*.less\" esm",
+    "copy-css:lib": "cpx \"src/components/**/*.less\" lib"
   },
   "eslintConfig": {
     "extends": [

@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Button } from './components';
+import { Button } from 'smileyqp-ui';
 
 function App() {
   return (
