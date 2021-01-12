@@ -2,7 +2,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import './index.css';
+// import './index.css';
+require('./index.less')
+
 
 const Button = ({ text }) => <button className="btn">这是一个组件按钮{text}</button>
 
