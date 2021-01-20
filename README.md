@@ -51,6 +51,37 @@ export default App;
 
 ```
 
+## 组件使用文档
+
+```shell
+//安装smileyqp-ui(推荐使用cnpm)
+cnpm install smileyqp-ui --save
+```
+
+#### randomName
+
+- getName获取随机任意名称
+- getMaleName获取随机男性名称
+- getFemaleName获取随机女性名称
+- getFamilyName获取随机姓氏
+- getNickName获取随机昵称
+
+```shell
+import {randomName} from 'smileyqp-ui';
+
+function App() {
+  return (
+    <div className="App">
+      <div>{randomName.getName()}</div>
+    </div>
+  );
+}
+
+export default App;
+```
+
+
+
 ### 其他
 
 - [添加less支持](https://blog.csdn.net/qq_34273059/article/details/112534563)
