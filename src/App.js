@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-// import { Button } from 'smileyqp-ui';
+import {randomName} from 'smileyqp-ui';
 import { Button,ReactNipple,Map } from './components';
-import randomName from './components/utils/randomName'
+// import randomName from './components/utils/randomName'
 
 function App() {
   return (

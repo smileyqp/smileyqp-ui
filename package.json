@@ -41,7 +41,7 @@
     "react-app-rewired": "^2.1.8",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
-    "smileyqp-ui": "^0.0.7",
+    "smileyqp-ui": "^0.0.8",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
