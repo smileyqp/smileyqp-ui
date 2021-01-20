@@ -10,7 +10,7 @@ function App() {
       <Button text={'hhhasdasdh'}></Button>
       <ReactNipple/>
       <Map/>
-      <div>{randomName.getNickName()}</div>
+      <div>{randomName.getName()}</div>
     </div>
   );
 }
