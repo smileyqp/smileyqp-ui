@@ -18,3 +18,6 @@ export { default as UpupMan} from './upupman'
 //有趣的css
 export { default as MixThreeD} from './funcss/mix3d'
 
+
+export {default as SolidShadowfont} from './funcss/solidshadowfont'
+
