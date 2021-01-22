@@ -14,3 +14,7 @@ export { default as randomName} from './utils/randomName'
 
 export { default as UpupMan} from './upupman'
 
+
+//有趣的css
+export { default as MixThreeD} from './funcss/mix3d'
+
