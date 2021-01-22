@@ -53,7 +53,9 @@
     "build:commonjs": "cross-env BABEL_OUTPUT=commonjs babel src/components --out-dir lib/ --ignore **/__tests__,**/__mocks__",
     "build:esm": "babel src/components --out-dir esm/ --ignore **/__tests__,**/__mocks__",
     "copy-css:esm": "cpx \"src/components/**/*.less\" esm",
-    "copy-css:lib": "cpx \"src/components/**/*.less\" lib"
+    "copy-css:lib": "cpx \"src/components/**/*.less\" lib",
+    "copy-scss:esm": "cpx \"src/components/**/*.scss\" esm",
+    "copy-scss:lib": "cpx \"src/components/**/*.scss\" lib"
   },
   "eslintConfig": {
     "extends": [
