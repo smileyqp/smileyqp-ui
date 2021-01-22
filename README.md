@@ -8,6 +8,26 @@
 ## 更新日志
 - 2020.1.20  version0.08 更新添加随机用户名randomName
 
+### 考虑添加模块
+
+- [ ] 基础组件模块
+
+  - [ ] button
+  - [ ] 高德地图map
+  - [ ] 操作杆reactnipple
+
+- [ ] 有意思的功能
+
+  - [ ] 举牌小人upupman(暂时剩余image加载有点问题，正在调试2021.01.22)
+
+- [ ] 工具集utils
+
+  - [x] 随机人名、昵称等生成randomname(0.08版本已经发布)
+
+- [ ] 有趣的css集合
+
+  ...(编写中ing)
+
 #### smileyqp-ui使用方法
 
 ```shell
@@ -26,8 +46,6 @@ function App() {
 
 export default App;
 ```
-
-
 
 #### 项目目录结构
 
